@@ -1,4 +1,3 @@
-
 plugin.tx_simpleblog_bloglisting {
 	view {
 		templateRootPaths.0 = {$plugin.tx_simpleblog_bloglisting.view.templateRootPath}
@@ -43,3 +42,15 @@ plugin.tx_simpleblog._CSS_DEFAULT_STYLE (
 	}
 
 )
+
+page {
+	includeCSS {
+		bootstrap = EXT:simpleblog/Resources/Public/Bootstrap/css/bootstrap.min.css
+		simpleblog = EXT:simpleblog/Resources/Public/Css/simpleblog.css
+	}
+	includeJSlibs {
+		jquery = //code.jquery.com/jquery.js
+		jquery.external = 1
+		bootstrap = EXT:simpleblog/Resources/Public/Bootstrap/js/bootstrap.min.js
+	}
+}
