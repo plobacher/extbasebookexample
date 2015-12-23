@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-12-22T17:08:30Z" product-name="simpleblog">
+		<header/>
+		<body>
+			<trans-unit id="tx_simpleblog_domain_model_blog">
+				<source>Blog</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_blog.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_blog.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_blog.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_blog.posts">
+				<source>Posts</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_post">
+				<source>Post</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_post.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_post.content">
+				<source>Content</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_post.postdate">
+				<source>Postdate</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_post.comments">
+				<source>Comments</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_post.author">
+				<source>Author</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_post.tags">
+				<source>Tags</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_comment">
+				<source>Comment</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_comment.comment">
+				<source>Comment</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_comment.commentdate">
+				<source>Commentdate</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_author">
+				<source>Author</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_author.fullname">
+				<source>Fullname</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_author.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_tag">
+				<source>Tag</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleblog_domain_model_tag.tagvalue">
+				<source>Tagvalue</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
