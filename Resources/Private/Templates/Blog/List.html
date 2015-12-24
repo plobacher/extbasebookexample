@@ -1,48 +1,11 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers">
+<div class="container">
 
-<f:
+    <h1>Blog-Liste</h1>
 
+    <ul class="list-group">
+        <f:for each="{blogs}" as="blog">
+            <li class="list-group-item">{blog.title}</li>
+        </f:for>
+    </ul>
 
-<f:layout name="Default" />
-
-This Template is responsible for creating a table of domain objects.
-
-If you modify this template, do not forget to change the overwrite settings
-in /Configuration/ExtensionBuilder/settings.yaml:
-  Resources:
-    Private:
-      Templates:
-        List.html: keep
-
-Otherwise your changes will be overwritten the next time you save the extension in the extension builder
-
-<f:section name="main">
-<h1>Listing for Blog</h1>
-
-<f:flashMessages />
-
-<table  class="tx_simpleblog" >
-	<tr>
-		<th><f:translate key="tx_simpleblog_domain_model_blog.title" /></th>
-		<th><f:translate key="tx_simpleblog_domain_model_blog.description" /></th>
-		<th><f:translate key="tx_simpleblog_domain_model_blog.image" /></th>
-		<th> </th>
-		<th> </th>
-	</tr>
-
-	<f:for each="{blogs}" as="blog">
-		<tr>
-			<td><f:link.action action="show" arguments="{blog : blog}"> {blog.title}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{blog : blog}"> {blog.description}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{blog : blog}"> {blog.image.originalResource.name}</f:link.action></td>
-			<td><f:link.action action="edit" arguments="{blog : blog}">Edit</f:link.action></td>
-			<td><f:link.action action="delete" arguments="{blog : blog}">Delete</f:link.action></td>
-		</tr>
-	</f:for>
-</table>
-
-<f:link.action action="new">New Blog</f:link.action>
-</f:section>
-
-
-</html>
+</div>
