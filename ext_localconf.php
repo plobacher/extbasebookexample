@@ -7,12 +7,10 @@ if (!defined('TYPO3_MODE')) {
 	'Pluswerk.' . $_EXTKEY,
 	'Bloglisting',
 	array(
-		'Blog' => 'list',
-		
+		'Blog' => 'list,add',
 	),
 	// non-cacheable actions
 	array(
-		'Blog' => 'list',
-		
+		'Blog' => 'list,add',
 	)
 );
