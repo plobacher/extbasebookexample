@@ -21,14 +21,20 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->view->assign('blogs',$this->blogRepository->findAll());
     }
 
-    public function addAction()
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     */
+    public function addFormAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog = NULL)
     {
-        for ($i=1; $i<=3; $i++) {
-            $blog = $this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Model\\Blog');
-            $blog->setTitle('Das ist der ' . $i . '. Blog!');
-            $this->blogRepository->add($blog);
-        }
-       $this->redirect('list');
+        $this->view->assign('blog',$blog);
     }
 
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     */
+    public function addAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
+    {
+        $this->blogRepository->add($blog);
+        $this->redirect('list');
+    }
 }

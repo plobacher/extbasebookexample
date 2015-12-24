@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Add new Blog</h1>
+
+    <f:form action="add" object="{blog}" name="blog" additionalAttributes="{role:'form'}">
+
+        <div class="form-group">
+            <label>Blog title</label>
+            <f:form.textfield property="title" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label>Blog description</label>
+            <f:form.textarea property="description" class="form-control" />
+        </div>
+
+        <f:form.submit value="Create Blog!" class="btn btn-primary" />
+
+    </f:form>
+</div>
