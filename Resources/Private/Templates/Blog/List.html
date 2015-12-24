@@ -4,7 +4,9 @@
 
     <ul class="list-group">
         <f:for each="{blogs}" as="blog">
-            <li class="list-group-item">{blog.title}</li>
+            <li class="list-group-item">{blog.title}
+                <f:link.action action="show" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right">SHOW</f:link.action>
+            </li>
         </f:for>
     </ul>
 

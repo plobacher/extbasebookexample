@@ -37,4 +37,12 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->blogRepository->add($blog);
         $this->redirect('list');
     }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     */
+    public function showAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
+    {
+        $this->view->assign('blog',$blog);
+    }
 }
