@@ -62,4 +62,21 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->blogRepository->update($blog);
         $this->redirect('list');
     }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     */
+    public function deleteConfirmAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
+    {
+        $this->view->assign('blog',$blog);
+    }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     */
+    public function deleteAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
+    {
+        $this->blogRepository->remove($blog);
+        $this->redirect('list');
+    }
 }
