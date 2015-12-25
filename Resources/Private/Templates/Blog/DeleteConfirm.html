@@ -1,10 +1,13 @@
-<div class="container">
+<f:layout name="Default" />
+
+<f:section name="content">
+
     <h1>Delete Blog?</h1>
 
-    Would you really like to delete the Blog with the title <strong>{blog.title}</strong>?
+        Would you really like to delete the Blog with the title <strong>{blog.title}</strong>?
 
-    <br /><br />
+        <br /><br />
 
-    <f:link.action action="list" class="btn btn-danger">No, don't delete!</f:link.action>
-    <f:link.action action="delete" class="btn btn-success" arguments="{blog:blog}">Yes, sure, delete it!</f:link.action>
-</div>
+        <f:link.action action="list" class="btn btn-danger">No, don't delete!</f:link.action>
+        <f:link.action action="delete" class="btn btn-success" arguments="{blog:blog}">Yes, sure, delete it!</f:link.action>
+</f:section>
