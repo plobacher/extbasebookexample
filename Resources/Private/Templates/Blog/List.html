@@ -5,13 +5,13 @@
     <ul class="list-group">
         <f:for each="{blogs}" as="blog">
             <li class="list-group-item">{blog.title}
-                <f:link.action action="deleteConfirm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right">DEL</f:link.action>
-                <f:link.action action="updateForm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right">EDIT</f:link.action>
-                <f:link.action action="show" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right">SHOW</f:link.action>
+                <f:link.action action="deleteConfirm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> DEL</f:link.action>
+                <f:link.action action="updateForm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> EDIT</f:link.action>
+                <f:link.action action="show" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> SHOW</f:link.action>
             </li>
         </f:for>
     </ul>
 
-    <f:link.action action="addForm" class="btn btn-primary">Add Blog</f:link.action>
+    <f:link.action action="addForm" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Blog</f:link.action>
 
 </div>
