@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ffd5bcb-8033-4d14-9677-aa05ccb73c61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Layouts/Default.html" afterPath="$PROJECT_DIR$/Resources/Private/Layouts/Default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Blog/AddForm.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Blog/AddForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Blog/UpdateForm.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Blog/UpdateForm.html" />
     </list>
     <ignored path="simpleblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,6 +45,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UpdateForm.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/UpdateForm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13651878">
+              <caret line="4" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="List.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,11 +75,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddForm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/AddForm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.909091">
+              <caret line="4" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22535211">
+            <state vertical-scroll-proportion="-2.8">
               <caret line="7" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Blog/Form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.181818">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -106,12 +137,13 @@
         <option value="$PROJECT_DIR$/Classes/Controller/BlogController.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" />
         <option value="$PROJECT_DIR$/Resources/Public/Css/Simpleblog.css" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/AddForm.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/UpdateForm.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/DeleteConfirm.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Partials/TwitterShare.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Layouts/Default.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Partials/Blog/Form.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/AddForm.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/UpdateForm.html" />
       </list>
     </option>
   </component>
@@ -496,6 +528,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -764,26 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/AddForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57337886">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10921501">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/UpdateForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10921501">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -822,8 +864,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22535211">
+        <state vertical-scroll-proportion="-2.8">
           <caret line="7" column="6" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Blog/Form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.181818">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/AddForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.909091">
+          <caret line="4" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/UpdateForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13651878">
+          <caret line="4" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
