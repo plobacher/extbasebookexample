@@ -3,6 +3,9 @@ namespace Pluswerk\Simpleblog\Controller;
 
 class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
+
+
+
     /**
      * @var \Pluswerk\Simpleblog\Domain\Repository\BlogRepository
      */
@@ -16,9 +19,17 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->blogRepository = $blogRepository;
     }
 
+    public function initializeObject() {
+        //$this->databaseHandle = $GLOBALS['TYPO3_DB'];
+        //$this->databaseHandle->explainOutput = 2;
+        //$this->databaseHandle->store_lastBuiltQuery = TRUE;
+        //$this->databaseHandle->debugOutput = 2;
+    }
+
     public function listAction()
     {
-        $this->view->assign('blogs',$this->blogRepository->findAll());
+        // $this->view->assign('blogs',$this->blogRepository->findAll());
+        $this->view->assign('blogs',$this->blogRepository->findSearchWord('Blog'));
     }
 
     /**

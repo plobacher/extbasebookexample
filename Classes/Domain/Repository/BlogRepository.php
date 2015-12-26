@@ -32,5 +32,22 @@ namespace Pluswerk\Simpleblog\Domain\Repository;
 class BlogRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
 
-    
+    public function findSearchWord($search, $words = array('Tick', 'Trick', 'Track'))
+    {
+        $query = $this->createQuery();
+        $query->matching(
+            $query->logicalOr(
+                $query->logicalAnd(
+                    $query->like('title', '%'.$search.'%'),
+                    $query->equals('description', '')
+                ),
+                $query->logicalAnd(
+                    $query->equals('title', 'TYPO3'),
+                    $query->like('description', '%ist toll%')
+                ),
+                $query->in('title', $words)
+            )
+        );
+        return $query->execute();
+    }
 }
