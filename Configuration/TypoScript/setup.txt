@@ -9,6 +9,17 @@ plugin.tx_simpleblog_bloglisting {
 	}
 }
 
+config.tx_extbase {
+	objects {
+		TYPO3\CMS\Fluid\Core\Parser\TemplateParser {
+			className = Pluswerk\Simpleblog\View\TemplateParser
+		}
+	}
+}
+
+#plugin.tx_simpleblog_bloglisting.view.templateRootPaths.0 = fileadmin/
+#plugin.tx_simpleblog.view.templateRootPaths.0 = uploads/
+
 plugin.tx_simpleblog._CSS_DEFAULT_STYLE (
 	textarea.f3-form-error {
 		background-color:#FF9F9F;
