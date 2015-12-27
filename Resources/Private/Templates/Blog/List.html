@@ -4,6 +4,15 @@
 
     <h1>Blog List</h1>
 
+    <f:form action="list" additionalAttributes="{role:'form'}">
+        <div class="form-inline">
+            <div class="form-group">
+                <f:form.textfield name="search" value="{search}" class="form-control" />
+                <f:form.submit value="Search!" class="btn-xs btn-primary" />
+            </div>
+        </div>
+    </f:form>
+
     <ul class="list-group">
         <f:for each="{blogs}" as="blog">
             <li class="list-group-item">{blog.title}
