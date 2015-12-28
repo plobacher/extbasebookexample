@@ -19,7 +19,8 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->blogRepository = $blogRepository;
     }
 
-    public function initializeObject() {
+    public function initializeObject()
+    {
         //$this->databaseHandle = $GLOBALS['TYPO3_DB'];
         //$this->databaseHandle->explainOutput = 2;
         //$this->databaseHandle->store_lastBuiltQuery = TRUE;
@@ -31,8 +32,11 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         if ($this->request->hasArgument('search')){
             $search = $this->request->getArgument('search');
         }
-        $this->view->assign('blogs', $this->blogRepository->findSearchForm($search));
-        $this->view->assign('search',$search);
+
+        $limit = ($this->settings['blog']['max']) ?: NULL;
+
+        $this->view->assign('blogs', $this->blogRepository->findSearchForm($search,$limit));
+        $this->view->assign('search', $search);
     }
 
     /**

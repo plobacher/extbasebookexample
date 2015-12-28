@@ -5,13 +5,30 @@ plugin.tx_simpleblog_bloglisting {
 		layoutRootPaths.0 = {$plugin.tx_simpleblog_bloglisting.view.layoutRootPath}
 	}
 	persistence {
-		storagePid = {$plugin.tx_simpleblog_bloglisting.persistence.storagePid}
+		# storagePid = 0,3,4,5,6
+		storagePid = 2
+		recursive = 1
+		classes {
+			Pluswerk\Simpleblog\Domain\Model\Blog {
+				newRecordStoragePid = 3
+			}
+			Pluswerk\Simpleblog\Domain\Model\Post {
+				newRecordStoragePid = 4
+			}
+			Pluswerk\Simpleblog\Domain\Model\Comment {
+				newRecordStoragePid = 5
+			}
+			Pluswerk\Simpleblog\Domain\Model\Tag {
+				newRecordStoragePid = 6
+			}
+		}
 	}
 	settings {
 		blog {
-			max = 4
+			max = 10
 		}
 	}
+
 }
 
 config.tx_extbase {
