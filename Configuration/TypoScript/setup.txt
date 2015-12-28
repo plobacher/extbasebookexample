@@ -7,6 +7,11 @@ plugin.tx_simpleblog_bloglisting {
 	persistence {
 		storagePid = {$plugin.tx_simpleblog_bloglisting.persistence.storagePid}
 	}
+	settings {
+		blog {
+			max = 4
+		}
+	}
 }
 
 config.tx_extbase {
