@@ -17,10 +17,11 @@ class GoogleAutocompleteApiService implements \TYPO3\CMS\Core\SingletonInterface
         $getValue   = strtolower($object->$getter());
         // URL to ask for autocomplete suggestions
         $url = 'http://www.google.com/complete/search?output=firefox&q=' . urlencode($getValue);
-        $result = json_decode(utf8_encode(file_get_contents($url)));
-
+        if (!empty($getValue)) {
+            $result = json_decode(utf8_encode(file_get_contents($url)));
+        }
         // check if either no result or the property value is not in the suggestions
-        if (empty($result[1]) || array_search($getValue,$result[1]) === FALSE) {
+        if (!empty($getValue) && (empty($result[1]) || array_search($getValue,$result[1]) === FALSE)    ) {
             $errors[$property] = 'No autocomplete entry for <strong>'.$getValue.'</strong>';
             // Add autocompletion values (if there are any)
             if (!empty($result[1])) {
