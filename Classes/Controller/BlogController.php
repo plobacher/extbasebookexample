@@ -49,6 +49,7 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 
     /**
      * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     * @validate $blog Pluswerk.Simpleblog:Autocomplete(property=title)
      */
     public function addAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
     {

@@ -1,5 +1,5 @@
 <f:form.validationResults for="{object}">
-    
+
     <f:if condition="{validationResults.flattenedErrors}">
         <div class="alert alert-danger">
             <f:for each="{validationResults.flattenedErrors}" as="errors" key="propertyPath">
@@ -12,7 +12,7 @@
                                 | Argumente:
                                 <f:for each="{error.arguments}" as="argument" iteration="i">
                                     {argument}
-                                    {f:if(condition:i.isLast(),then:'',else:', ')}
+                                    {f:if(condition: i.isLast, then: '', else: ', ')}
                                 </f:for>
                             </f:if>
                         </li>
