@@ -1,0 +1,17 @@
+<f:layout name="Default" />
+
+<f:section name="content">
+
+    <h1>Show Post</h1>
+
+    <dl class="dl-horizontal">
+        <dt>Post title:</dt>
+        <dd>{post.title}</dd>
+        <dt>Post date:</dt>
+        <dd><f:format.date format="d.m.Y / h:i a">{post.postdate}</f:format.date></dd>
+        <dt>Post description:</dt>
+        <dd><f:format.nl2br>{post.content}</f:format.nl2br></dd>
+    </dl>
+
+    <f:link.action action="show" controller="Blog" arguments="{blog:blog}" class="btn btn-primary">Back to the Blog <strong>"{blog.title}"</strong></f:link.action>
+</f:section>

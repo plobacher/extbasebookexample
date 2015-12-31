@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ffd5bcb-8033-4d14-9677-aa05ccb73c61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Post.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_localconf.php" afterPath="$PROJECT_DIR$/ext_localconf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Controller/PostController.php" afterPath="$PROJECT_DIR$/Classes/Controller/PostController.php" />
     </list>
     <ignored path="simpleblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Post.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26666668">
+            <state vertical-scroll-proportion="-5.818182">
               <caret line="150" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="274" selection-end-column="1" />
               <folding />
             </state>
@@ -70,8 +67,18 @@
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Controller/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.636364">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state vertical-scroll-proportion="-20.727272">
+              <caret line="57" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Show.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -153,9 +160,10 @@
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html" />
-        <option value="$PROJECT_DIR$/Classes/Controller/PostController.php" />
         <option value="$PROJECT_DIR$/Classes/Domain/Model/Blog.php" />
         <option value="$PROJECT_DIR$/Classes/Domain/Model/Post.php" />
+        <option value="$PROJECT_DIR$/Classes/Controller/PostController.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
       </list>
     </option>
   </component>
@@ -660,14 +668,14 @@
     <property name="SearchEverywhereHistoryKey" value="Debugger&#9;null&#9;null&#10;makeInstance&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Resources/Private/Partials/Post" />
-      <recent name="$PROJECT_DIR$/Resources/Private/Templates/Post" />
-      <recent name="$PROJECT_DIR$/Classes/Controller" />
-      <recent name="$PROJECT_DIR$/Resources/Private/Templates/Blog" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Classes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Private/Templates/Post" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Partials/Post" />
+      <recent name="$PROJECT_DIR$/Classes/Controller" />
+      <recent name="$PROJECT_DIR$/Resources/Private/Templates/Blog" />
     </key>
   </component>
   <component name="RunManager">
@@ -762,13 +770,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ext_emconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.516666">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../typo3/sysext/extbase/ChangeLog">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7592892">
@@ -1090,14 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Controller/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.636364">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TCA/tx_simpleblog_domain_model_blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.94666666">
@@ -1124,8 +1117,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26666668">
+        <state vertical-scroll-proportion="-5.818182">
           <caret line="150" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="274" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Controller/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.727272">
+          <caret line="57" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
