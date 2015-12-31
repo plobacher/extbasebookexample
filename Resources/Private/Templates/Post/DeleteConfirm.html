@@ -1,0 +1,13 @@
+<f:layout name="Default" />
+
+<f:section name="content">
+
+    <h1>Delete Post?</h1>
+
+    Would you really like to delete the Post with the title <strong>"{post.title}</strong> (from the Blog <strong>"{blog.title}"</strong>)?
+
+    <br /><br />
+
+    <f:link.action action="show" controller="Blog" arguments="{blog:blog}" class="btn btn-danger">No, don't delete!</f:link.action>
+    <f:link.action action="delete" class="btn btn-success" arguments="{blog:blog,post:post}">Yes, sure, delete it!</f:link.action>
+</f:section>

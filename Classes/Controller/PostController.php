@@ -80,4 +80,30 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->postRepository->update($post);
         $this->redirect('show','Blog',NULL,array('blog'=>$blog));
     }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     * @param \Pluswerk\Simpleblog\Domain\Model\Post $post
+     */
+    public function deleteConfirmAction(
+        \Pluswerk\Simpleblog\Domain\Model\Blog $blog,
+        \Pluswerk\Simpleblog\Domain\Model\Post $post)
+    {
+        $this->view->assign('blog',$blog);
+        $this->view->assign('post',$post);
+    }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     * @param \Pluswerk\Simpleblog\Domain\Model\Post $post
+     */
+    public function deleteAction(
+        \Pluswerk\Simpleblog\Domain\Model\Blog $blog,
+        \Pluswerk\Simpleblog\Domain\Model\Post $post)
+    {
+        $blog->removePost($post);
+        $this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Repository\\BlogRepository')->update($blog);
+        $this->postRepository->remove($post);
+        $this->redirect('show','Blog',NULL,array('blog'=>$blog));
+    }
 }
