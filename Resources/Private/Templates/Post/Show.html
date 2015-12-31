@@ -9,8 +9,14 @@
         <dd>{post.title}</dd>
         <dt>Post date:</dt>
         <dd><f:format.date format="d.m.Y / h:i a">{post.postdate}</f:format.date></dd>
-        <dt>Post description:</dt>
+        <dt>Post content:</dt>
         <dd><f:format.nl2br>{post.content}</f:format.nl2br></dd>
+        <dt>Post-Tags</dt>
+        <dd><f:for each="{post.tags}" as="tag">
+            <span class="label label-default">{tag.tagvalue}</span>
+        </f:for></dd>
+    </dl>
+
     </dl>
 
     <f:link.action action="show" controller="Blog" arguments="{blog:blog}" class="btn btn-primary">Back to the Blog <strong>"{blog.title}"</strong></f:link.action>

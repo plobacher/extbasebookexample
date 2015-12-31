@@ -15,6 +15,9 @@
         <ul class="list-group">
             <f:for each="{blog.posts}" as="post">
                 <li class="list-group-item">{post.title}
+                    <f:for each="{post.tags}" as="tag">
+                        <span class="label label-default">{tag.tagvalue}</span>
+                    </f:for>
                     <f:link.action action="deleteConfirm" controller="Post" arguments="{blog:blog,post:post}" class="btn btn-primary btn-xs pull-right">DEL</f:link.action>
                     <f:link.action action="updateForm" controller="Post" arguments="{blog:blog,post:post}" class="btn btn-primary btn-xs pull-right margin-right">EDIT</f:link.action>
                     <f:link.action action="show" controller="Post" arguments="{blog:blog,post:post}" class="btn btn-primary btn-xs pull-right margin-right">SHOW</f:link.action>

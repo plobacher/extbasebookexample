@@ -14,6 +14,11 @@
         <f:form.textarea property="content" class="form-control" />
     </div>
 
+    <div class="form-group">
+        <label>Post tags</label>
+        <f:form.select options="{tags}" optionLabelField="tagvalue" property="tags" size="5" multiple="1" class="form-control" />
+    </div>
+
     <f:form.submit value="{submitmessage}" class="btn btn-primary" />
 
 </f:form>

@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9ffd5bcb-8033-4d14-9677-aa05ccb73c61" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Controller/PostController.php" afterPath="$PROJECT_DIR$/Classes/Controller/PostController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TypoScript/setup.txt" afterPath="$PROJECT_DIR$/Configuration/TypoScript/setup.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html" afterPath="$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Post/UpdateForm.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Post/UpdateForm.html" />
     </list>
     <ignored path="simpleblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,41 +30,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ext_localconf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext_localconf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="150" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="274" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Controller/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0">
-              <caret line="107" column="5" selection-start-line="83" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
+            <state vertical-scroll-proportion="-14.909091">
+              <caret line="70" column="119" selection-start-line="70" selection-start-column="119" selection-end-line="70" selection-end-column="119" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteConfirm.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeleteConfirm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/DeleteConfirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4">
+            <state vertical-scroll-proportion="-8.727273">
               <caret line="12" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.818182">
+              <caret line="20" column="171" selection-start-line="16" selection-start-column="16" selection-end-line="20" selection-end-column="171" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Domain/Repository/TagRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.090909">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9347079">
+              <caret line="34" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -68,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/UpdateForm.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.1818182">
-              <caret line="3" column="93" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+              <caret line="3" column="141" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -77,8 +93,8 @@
       <file leaf-file-name="Show.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
+            <state vertical-scroll-proportion="-12.363636">
+              <caret line="17" column="9" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -87,8 +103,8 @@
       <file leaf-file-name="AddForm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="131" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+            <state vertical-scroll-proportion="-2.909091">
+              <caret line="4" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -97,18 +113,8 @@
       <file leaf-file-name="Form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="75" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../extension_builder/Classes/Domain/Model/Person.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="17" />
+            <state vertical-scroll-proportion="-15.272727">
+              <caret line="21" column="69" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -146,7 +152,6 @@
         <option value="$PROJECT_DIR$/Configuration/TCA/Overrides/tt_content.php" />
         <option value="$PROJECT_DIR$/Classes/Domain/Repository/BlogRepository.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" />
-        <option value="$PROJECT_DIR$/Configuration/TypoScript/setup.txt" />
         <option value="$PROJECT_DIR$/Resources/Private/Partials/Error.html" />
         <option value="$PROJECT_DIR$/Classes/Validation/Validator/WordValidator.php" />
         <option value="$PROJECT_DIR$/Classes/Domain/Validator/BlogValidator.php" />
@@ -157,15 +162,17 @@
         <option value="$PROJECT_DIR$/Resources/Private/Partials/Blog/Form.html" />
         <option value="$PROJECT_DIR$/Classes/ViewHelpers/HasErrorViewHelper.php" />
         <option value="$PROJECT_DIR$/ext_localconf.php" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html" />
         <option value="$PROJECT_DIR$/Classes/Domain/Model/Blog.php" />
         <option value="$PROJECT_DIR$/Classes/Domain/Model/Post.php" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/UpdateForm.html" />
-        <option value="$PROJECT_DIR$/Classes/Controller/PostController.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/DeleteConfirm.html" />
+        <option value="$PROJECT_DIR$/Classes/Controller/PostController.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/UpdateForm.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html" />
+        <option value="$PROJECT_DIR$/Classes/Domain/Repository/TagRepository.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
+        <option value="$PROJECT_DIR$/Configuration/TypoScript/setup.txt" />
       </list>
     </option>
   </component>
@@ -570,6 +577,24 @@
               <option name="myItemId" value="Configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypoScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -600,6 +625,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -671,6 +718,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Classes/Domain/Repository" />
       <recent name="$PROJECT_DIR$/Resources/Private/Templates/Post" />
       <recent name="$PROJECT_DIR$/Resources/Private/Partials/Post" />
       <recent name="$PROJECT_DIR$/Classes/Controller" />
@@ -737,7 +785,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29969418" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29969418" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -772,13 +820,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/ChangeLog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1379" column="17" selection-start-line="1379" selection-start-column="17" selection-end-line="1379" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/Tests/Unit/Configuration/AbstractConfigurationManagerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="39.575756">
@@ -825,13 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="54.969696">
           <caret line="7" column="56" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.363636">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1039,14 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="90" selection-start-line="6" selection-start-column="4" selection-end-line="29" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TCA/tx_simpleblog_domain_model_blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.94666666">
@@ -1078,30 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="131" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="75" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../extension_builder/Classes/Domain/Model/Person.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1118,26 +1120,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/UpdateForm.html">
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/DeleteConfirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1818182">
-          <caret line="3" column="93" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+        <state vertical-scroll-proportion="-8.727273">
+          <caret line="12" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Controller/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="107" column="5" selection-start-line="83" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
+        <state vertical-scroll-proportion="-14.909091">
+          <caret line="70" column="119" selection-start-line="70" selection-start-column="119" selection-end-line="70" selection-end-column="119" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/DeleteConfirm.html">
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/UpdateForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="12" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="12" />
+        <state vertical-scroll-proportion="-2.1818182">
+          <caret line="3" column="141" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/AddForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.909091">
+          <caret line="4" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Post/Form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.272727">
+          <caret line="21" column="69" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.818182">
+          <caret line="20" column="171" selection-start-line="16" selection-start-column="16" selection-end-line="20" selection-end-column="171" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.363636">
+          <caret line="17" column="9" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Domain/Repository/TagRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.090909">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9347079">
+          <caret line="34" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
