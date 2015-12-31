@@ -56,4 +56,28 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->view->assign('blog',$blog);
         $this->view->assign('post',$post);
     }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     * @param \Pluswerk\Simpleblog\Domain\Model\Post $post
+     */
+    public function updateFormAction(
+        \Pluswerk\Simpleblog\Domain\Model\Blog $blog,
+        \Pluswerk\Simpleblog\Domain\Model\Post $post)
+    {
+        $this->view->assign('blog',$blog);
+        $this->view->assign('post',$post);
+    }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     * @param \Pluswerk\Simpleblog\Domain\Model\Post $post
+     */
+    public function updateAction(
+        \Pluswerk\Simpleblog\Domain\Model\Blog $blog,
+        \Pluswerk\Simpleblog\Domain\Model\Post $post)
+    {
+        $this->postRepository->update($post);
+        $this->redirect('show','Blog',NULL,array('blog'=>$blog));
+    }
 }
