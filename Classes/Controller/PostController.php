@@ -16,6 +16,18 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->postRepository = $postRepository;
     }
 
+    public function initializeAction()
+    {
+        $action = $this->request->getControllerActionName();
+        // pruefen, ob eine andere Action ausser "show" aufgerufen wurde
+        if ($action != 'show') {
+            // Redirect zur Login Seite falls nicht eingeloggt
+            if (!$GLOBALS['TSFE']->fe_user->user['uid']) {
+                $this->redirect(NULL, NULL, NULL, NULL, $this->settings['loginpage']);
+            }
+        }
+    }
+
     /**
      * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
      * @param \Pluswerk\Simpleblog\Domain\Model\Post $post
@@ -27,7 +39,6 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->view->assign('blog',$blog);
         $this->view->assign('post',$post);
         $this->view->assign('tags', $this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Repository\\TagRepository')->findAll());
-        $this->view->assign('authors', $this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Repository\\AuthorRepository')->findAll());
     }
 
     /**
@@ -41,7 +52,7 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         //$post->setPostdate(new \DateTime());
 
         //$this->postRepository->add($post);
-
+        $post->setAuthor($this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Repository\\AuthorRepository')->findOneByUid( $GLOBALS['TSFE']->fe_user->user['uid']));
         $blog->addPost($post);
         $this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Repository\\BlogRepository')->update($blog);
         $this->redirect('show','Blog',NULL,array('blog'=>$blog));
@@ -70,7 +81,6 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->view->assign('blog',$blog);
         $this->view->assign('post',$post);
         $this->view->assign('tags', $this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Repository\\TagRepository')->findAll());
-        $this->view->assign('authors', $this->objectManager->get('Pluswerk\\Simpleblog\\Domain\\Repository\\AuthorRepository')->findAll());
     }
 
     /**
