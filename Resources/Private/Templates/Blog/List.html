@@ -5,10 +5,17 @@
     <h1>Blog List</h1>
 
     <f:comment>
-    <simpleblog:dummyText>This is a dummy text! </simpleblog:dummyText>
-    <h3><simpleblog:tsfe>page|title</simpleblog:tsfe></h3>
+        <simpleblog:dummyText>This is a dummy text! </simpleblog:dummyText>
+        <h3><simpleblog:tsfe>page|title</simpleblog:tsfe></h3>
+        <simpleblog:isFrontend>
+            <f:then>
+                Frontend!
+            </f:then>
+            <f:else>
+                Backend!
+            </f:else>
+        </simpleblog:isFrontend>
     </f:comment>
-    
     <f:form action="list" additionalAttributes="{role:'form'}">
         <div class="form-inline">
             <div class="form-group">

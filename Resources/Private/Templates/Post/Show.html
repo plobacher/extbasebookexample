@@ -16,7 +16,9 @@
             <span class="label label-default">{tag.tagvalue}</span>
         </f:for></dd>
         <dt>Post autor:</dt>
-        <dd>{post.author.fullname} (Email: {post.author.email})</dd>
+        <dd>{post.author.fullname} (Email: {post.author.email})
+            <br />
+            <simpleblog:gravatar>{post.author.email}</simpleblog:gravatar></dd></dd>
     </dl>
 
     <h3>Comments</h3>
