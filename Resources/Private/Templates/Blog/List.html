@@ -4,6 +4,11 @@
 
     <h1>Blog List</h1>
 
+    <f:comment>
+    <simpleblog:dummyText>This is a dummy text! </simpleblog:dummyText>
+    <h3><simpleblog:tsfe>page|title</simpleblog:tsfe></h3>
+    </f:comment>
+    
     <f:form action="list" additionalAttributes="{role:'form'}">
         <div class="form-inline">
             <div class="form-group">
@@ -24,6 +29,8 @@
     </ul>
 
     <p class="text-muted">Es werden maximal {settings.blog.max} Blogs ausgegeben.</p>
+
+    <p>You will find our Terms & Condition hier: <a href="http://www.domain.com/test.pdf"><simpleblog:fileTypeIcon>test.pdf</simpleblog:fileTypeIcon></a></p>
 
     <f:link.action action="addForm" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Blog</f:link.action>
 
