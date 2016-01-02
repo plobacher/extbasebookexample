@@ -19,8 +19,8 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     public function initializeAction()
     {
         $action = $this->request->getControllerActionName();
-        // pruefen, ob eine andere Action ausser "show" aufgerufen wurde
-        if ($action != 'show') {
+        // pruefen, ob eine andere Action ausser "show" oder "ajax" aufgerufen wurde
+        if ($action != 'show' && $action != 'ajax') {
             // Redirect zur Login Seite falls nicht eingeloggt
             if (!$GLOBALS['TSFE']->fe_user->user['uid']) {
                 $this->redirect(NULL, NULL, NULL, NULL, $this->settings['loginpage']);
@@ -120,4 +120,33 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->postRepository->remove($post);
         $this->redirect('show','Blog',NULL,array('blog'=>$blog));
     }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Post $post
+     * @param \Pluswerk\Simpleblog\Domain\Model\Comment $comment
+     */
+    public function ajaxAction(
+            \Pluswerk\Simpleblog\Domain\Model\Post $post,
+            \Pluswerk\Simpleblog\Domain\Model\Comment $comment = NULL)
+    {
+        // Wenn der Kommentar leer ist, wird nicht persistiert
+        if ($comment->getComment()=="") return FALSE;
+
+        // Datum des Kommentars setzen und den Kommentar zum Post hinzufügen
+        $comment->setCommentdate(new \DateTime());
+        $post->addComment($comment);
+        $this->postRepository->update($post);
+        $this->objectManager->get( 'TYPO3\\CMS\\Extbase\\Persistence\\Generic\\PersistenceManager' )->persistAll();
+
+        $comments = $post->getComments();
+        foreach ($comments as $comment){
+            $json[$comment->getUid()] = array(
+                'comment'=>$comment->getComment(),
+                'commentdate' => $comment->getCommentdate()
+            );
+        }
+
+        return json_encode($json);
+    }
+
 }
