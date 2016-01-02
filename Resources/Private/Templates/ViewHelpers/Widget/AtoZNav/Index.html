@@ -1,0 +1,11 @@
+<ul class="pagination">
+    <li{f:if(condition:'{char}=="%"',then:' class="active"')}><f:widget.link arguments="{char:'%'}">[ALL]</f:widget.link></li>
+    <f:for each="{letters}" as="letter">
+        <li{f:if(condition:'{char}=={letter}',then:' class="active"')}>
+        <f:widget.link arguments="{char:letter}" class="active">{letter}</f:widget.link>
+        </li>
+    </f:for>
+</ul>
+<br />
+
+<f:renderChildren arguments="{contentArguments}" />

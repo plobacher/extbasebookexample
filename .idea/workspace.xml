@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ffd5bcb-8033-4d14-9677-aa05ccb73c61" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
     </list>
     <ignored path="simpleblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,71 +25,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
+      <file leaf-file-name="SortViewHelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/SortViewHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.95">
-              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="111" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/Controller/SortController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers/Widget/Sort/Index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.636364">
-              <caret line="16" column="32" selection-start-line="9" selection-start-column="8" selection-end-line="16" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.70666665">
+              <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IfViewHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/ViewHelpers/IfViewHelper.php">
+      <file leaf-file-name="AtoZNavViewHelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/AtoZNavViewHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.454545">
-              <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractConditionViewHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/Core/ViewHelper/AbstractConditionViewHelper.php">
+      <file leaf-file-name="AtoZNavController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/Controller/AtoZNavController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.878788">
-              <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GravatarViewHelper.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/GravatarViewHelper.php">
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers/Widget/AtoZNav/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TsfeViewHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/TsfeViewHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7272725">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DummyTextViewHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/DummyTextViewHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.818182">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state vertical-scroll-proportion="-0.72727275">
+              <caret line="1" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="Show.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.272727">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="9" selection-start-line="16" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
@@ -108,7 +108,7 @@
       <file leaf-file-name="IsFrontendViewHelper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/IsFrontendViewHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
@@ -118,7 +118,7 @@
       <file leaf-file-name="FileTypeIconViewHelper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/FileTypeIconViewHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
@@ -175,6 +175,13 @@
         <option value="$PROJECT_DIR$/Classes/ViewHelpers/GravatarViewHelper.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
         <option value="$PROJECT_DIR$/Classes/ViewHelpers/IsFrontendViewHelper.php" />
+        <option value="$PROJECT_DIR$/Classes/ViewHelpers/Widget/SortViewHelper.php" />
+        <option value="$PROJECT_DIR$/Classes/ViewHelpers/Widget/Controller/SortController.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Widget/Sort/Index.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers/Widget/Sort/Index.html" />
+        <option value="$PROJECT_DIR$/Classes/ViewHelpers/Widget/AtoZNavViewHelper.php" />
+        <option value="$PROJECT_DIR$/Classes/ViewHelpers/Widget/Controller/AtoZNavController.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers/Widget/AtoZNav/Index.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" />
       </list>
     </option>
@@ -223,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -385,7 +393,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Post" />
+              <option name="myItemId" value="ViewHelpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewHelpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtoZNav" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,6 +664,54 @@
               <option name="myItemId" value="Classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewHelpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewHelpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -675,7 +795,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -700,15 +819,16 @@
     <property name="SearchEverywhereHistoryKey" value="Debugger&#9;null&#9;null&#10;makeInstance&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers" />
+      <recent name="$PROJECT_DIR$/Classes" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Classes/ViewHelpers" />
       <recent name="$PROJECT_DIR$/Classes/Domain/Repository" />
       <recent name="$PROJECT_DIR$/Resources/Private/Templates/Post" />
       <recent name="$PROJECT_DIR$/Resources/Private/Partials/Post" />
       <recent name="$PROJECT_DIR$/Classes/Controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Classes" />
     </key>
   </component>
   <component name="RunManager">
@@ -768,7 +888,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29969418" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31070337" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -803,48 +923,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/Classes/Validation/ValidatorResolver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5480769">
-          <caret line="290" column="190" selection-start-line="290" selection-start-column="190" selection-end-line="290" selection-end-column="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/Classes/Validation/Validator/CollectionValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22115384">
-          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/Classes/Validation/Validator/BooleanValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6923077">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/Classes/Validation/Validator/AlphanumericValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23878205">
-          <caret line="24" column="94" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/Classes/Validation/Validator/AbstractCompositeValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7307692">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Partials/Error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="92" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/extbase/Classes/Validation/Validator/AbstractValidator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.151515">
@@ -982,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32">
           <caret line="134" column="36" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="274" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="351" column="62" selection-start-line="351" selection-start-column="43" selection-end-line="351" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.727273">
           <caret line="12" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.818182">
           <caret line="20" column="171" selection-start-line="16" selection-start-column="16" selection-end-line="20" selection-end-column="171" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.090909">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2727273">
           <caret line="157" column="27" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4545455">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6363637">
           <caret line="5" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.818182">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1818182">
           <caret line="3" column="141" selection-start-line="3" selection-start-column="141" selection-end-line="3" selection-end-column="141" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1818182">
           <caret line="3" column="141" selection-start-line="3" selection-start-column="141" selection-end-line="3" selection-end-column="141" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.636364">
           <caret line="16" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,14 +1165,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.363636">
           <caret line="149" column="5" selection-start-line="123" selection-start-column="4" selection-end-line="149" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.95">
+        <state vertical-scroll-proportion="0.0">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="111" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/ViewHelpers/IfViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/Core/ViewHelper/AbstractConditionViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/GravatarViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/TsfeViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/DummyTextViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="9" selection-start-line="16" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/IsFrontendViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1122,66 +1234,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/DummyTextViewHelper.php">
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/SortViewHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.818182">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/TsfeViewHelper.php">
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/Controller/SortController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7272725">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers/Widget/Sort/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.272727">
-          <caret line="21" column="9" selection-start-line="16" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/IsFrontendViewHelper.php">
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/AtoZNavViewHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="11" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/Widget/Controller/AtoZNavController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers/Widget/AtoZNav/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.72727275">
+          <caret line="1" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.636364">
-          <caret line="16" column="32" selection-start-line="9" selection-start-column="8" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/ViewHelpers/IfViewHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.454545">
-          <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/Core/ViewHelper/AbstractConditionViewHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.878788">
-          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/ViewHelpers/GravatarViewHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.70666665">
+          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
           <folding />
         </state>
       </provider>

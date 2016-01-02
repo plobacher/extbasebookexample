@@ -4,18 +4,6 @@
 
     <h1>Blog List</h1>
 
-    <f:comment>
-        <simpleblog:dummyText>This is a dummy text! </simpleblog:dummyText>
-        <h3><simpleblog:tsfe>page|title</simpleblog:tsfe></h3>
-        <simpleblog:isFrontend>
-            <f:then>
-                Frontend!
-            </f:then>
-            <f:else>
-                Backend!
-            </f:else>
-        </simpleblog:isFrontend>
-    </f:comment>
     <f:form action="list" additionalAttributes="{role:'form'}">
         <div class="form-inline">
             <div class="form-group">
@@ -26,18 +14,20 @@
     </f:form>
 
     <ul class="list-group">
-        <f:for each="{blogs}" as="blog">
-            <li class="list-group-item">{blog.title}
-                <f:link.action action="deleteConfirm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> DEL</f:link.action>
-                <f:link.action action="updateForm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> EDIT</f:link.action>
-                <f:link.action action="show" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> SHOW</f:link.action>
-            </li>
-        </f:for>
+        <simpleblog:widget.AtoZNav objects="{blogs}" as="filteredBlogs" property="title">
+            <simpleblog:widget.sort objects="{filteredBlogs}" as="sortedBlogs" property="title">
+                <f:for each="{sortedBlogs}" as="blog">
+                    <li class="list-group-item">{blog.title}
+                        <f:link.action action="deleteConfirm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> DEL</f:link.action>
+                        <f:link.action action="updateForm" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> EDIT</f:link.action>
+                        <f:link.action action="show" arguments="{blog:blog}" class="btn btn-primary btn-xs pull-right margin-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> SHOW</f:link.action>
+                    </li>
+                </f:for>
+            </simpleblog:widget.sort>
+        </simpleblog:widget.AtoZNav>
     </ul>
 
-    <p class="text-muted">Es werden maximal {settings.blog.max} Blogs ausgegeben.</p>
-
-    <p>You will find our Terms & Condition hier: <a href="http://www.domain.com/test.pdf"><simpleblog:fileTypeIcon>test.pdf</simpleblog:fileTypeIcon></a></p>
+    <p class="text-muted">A maximum of {settings.blog.max} Blogs will be displayed.</p>
 
     <f:link.action action="addForm" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Blog</f:link.action>
 
