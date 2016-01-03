@@ -61,6 +61,7 @@ class BlogRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 
         $query = $this->createQuery();
 
+        $query->getQuerySettings()->setLanguageUid($GLOBALS["TSFE"]->tmpl->setup['config.']['sys_language_uid']);
         $query->matching(
             $query->like('title','%'.$search.'%')
         );

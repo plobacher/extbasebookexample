@@ -1,76 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2015-12-22T17:08:30Z" product-name="simpleblog">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-01-03T09:15:12Z" product-name="simpleblog">
 		<header/>
 		<body>
 			<trans-unit id="tx_simpleblog_domain_model_blog">
 				<source>Blog</source>
+				<target state="translated">Blog</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_blog.title">
 				<source>Title</source>
+				<target state="translated">Titel</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_blog.description">
 				<source>Description</source>
+				<target state="translated">Beschreibung</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_blog.image">
 				<source>Image</source>
+				<target state="translated">Bild</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_blog.posts">
 				<source>Posts</source>
+				<target state="translated">Posts</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_post">
 				<source>Post</source>
+				<target state="translated">Post</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_post.title">
 				<source>Title</source>
+				<target state="translated">Titel</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_post.content">
 				<source>Content</source>
+				<target state="translated">Inhalt</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_post.postdate">
 				<source>Postdate</source>
+				<target state="translated">Datum des Posts</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_post.comments">
 				<source>Comments</source>
+				<target state="translated">Kommentare</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_post.author">
 				<source>Author</source>
+				<target state="translated">Autor</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_post.tags">
 				<source>Tags</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_comment">
 				<source>Comment</source>
+				<target state="translated">Kommentar</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_comment.comment">
 				<source>Comment</source>
+				<target state="translated">Kommentar</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_comment.commentdate">
 				<source>Commentdate</source>
+				<target state="translated">Datum des Kommentars</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_author">
 				<source>Author</source>
+				<target state="translated">Autor</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_author.fullname">
 				<source>Fullname</source>
+				<target state="translated">Kompletter Name</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_author.email">
 				<source>Email</source>
+				<target state="translated">Email</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_tag">
 				<source>Tag</source>
+				<target state="translated">Tag</target>
 			</trans-unit>
 			<trans-unit id="tx_simpleblog_domain_model_tag.tagvalue">
 				<source>Tagvalue</source>
+				<target state="translated">Tag Inhalt</target>
 			</trans-unit>
 			<trans-unit id="blog.list.headline">
 				<source>Blog List</source>
+				<target state="translated">Blog-Liste</target>
 			</trans-unit>
 			<trans-unit id="blog.list.button.search">
 				<source>Search!</source>
+				<target state="translated">Suche!</target>
 			</trans-unit>
 			<trans-unit id="post.show.headline">
 				<source>Show Post (Blog: "%1$s" / UID: %2$s)</source>
+				<target state="translated">Post anzeigen (Blog: "%1$s" / UID: %2$s)</target>
 			</trans-unit>
 		</body>
 	</file>

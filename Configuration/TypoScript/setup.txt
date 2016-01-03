@@ -1,3 +1,19 @@
+config {
+	sys_language_uid = 0
+	language = default
+	locale_all = en_US
+	htmlTag_langKey = en
+}
+
+[globalVar = GP:L = 1]
+	config {
+		sys_language_uid = 1
+		language = de
+		locale_all = de_DE.utf8
+		htmlTag_langKey = de
+	}
+[global]
+
 plugin.tx_simpleblog_bloglisting {
 	view {
 		templateRootPaths.0 = {$plugin.tx_simpleblog_bloglisting.view.templateRootPath}
@@ -109,4 +125,31 @@ ajax {
 		debug = 0
 	}
 	10 < tt_content.list.20.simpleblog_bloglisting
+}
+
+config.linkVars = L
+config.uniqueLinkVars = 1
+
+config {
+	sys_language_uid = 0
+	language = default
+	locale_all = en_US
+	htmlTag_langKey = en
+}
+
+[globalVar = GP:L = 1]
+	config {
+		sys_language_uid = 1
+		language = de
+		locale_all = de_DE.utf8
+		htmlTag_langKey = de
+	}
+[global]
+
+plugin.tx_simpleblog_bloglisting {
+	_LOCAL_LANG {
+		de {
+			blog.list.headline = List aller Blogs
+		}
+	}
 }
