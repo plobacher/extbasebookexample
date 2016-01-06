@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2013-12-29T12:50:12Z" product-name="simpleblog">
+        <header/>
+        <body>
+            <trans-unit id=".alttitle">
+                <source>Simpleblog</source>
+            </trans-unit>
+            <trans-unit id="delete.alttitle" xml:space="preserve">
+              <source>Delete comments</source>
+            </trans-unit>
+            <trans-unit id="delete.description" xml:space="preserve">
+              <source>With this module you can delete comments.</source>
+            </trans-unit>
+            <trans-unit id="delete.details" xml:space="preserve">
+              <source>Each blog contains posts and every post contains 0 or more comments. If the comment is not useful or contains spam, it could be deleted with this module.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

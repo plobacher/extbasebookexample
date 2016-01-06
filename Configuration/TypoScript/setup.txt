@@ -153,3 +153,5 @@ plugin.tx_simpleblog_bloglisting {
 		}
 	}
 }
+
+module.tx_simpleblog_bloglisting < plugin.tx_simpleblog_bloglisting

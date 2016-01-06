@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2016-01-03T19:33:22Z" product-name="simpleblog">
+        <header/>
+        <body>
+            <trans-unit id="mlang_labels_tablabel" xml:space="preserve">
+                <source>Simpleblog Comment Admin Module</source>
+            </trans-unit>
+            <trans-unit id="mlang_labels_tabdescr" xml:space="preserve">
+                <source>With this module you can manage the comments</source>
+            </trans-unit>
+            <trans-unit id="mlang_tabs_tab" xml:space="preserve">
+                <source>Simpleblog Admin</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
