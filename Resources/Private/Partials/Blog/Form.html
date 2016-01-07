@@ -3,7 +3,7 @@
 
 <f:render partial="Error" arguments="{object:'blog'}" />
 
-<f:form action="{action}" object="{blog}" name="blog" additionalAttributes="{role:'form'}">
+<f:form enctype="multipart/form-data" action="{action}" object="{blog}" name="blog" additionalAttributes="{role:'form'}">
 
     <div class="form-group">
         <label{f:if(condition:validationResults.flattenedErrors.title,then:' class="text-danger"') -> f:form.validationResults(for: 'blog', as: 'validationResults')}>Blog title</label>
@@ -14,6 +14,12 @@
     <div class="form-group">
         <label{pw:hasError(property:'description',then:' class="text-danger"')}>Blog description</label>
         <f:form.textarea property="description" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Blog image</label>
+        <f:if condition="{blog.image}"><br /><f:image src="uploads/tx_simpleblog/{blog.image}" /></f:if>
+        <f:form.upload  property="image" class="form-control" />
     </div>
 
     <f:form.submit value="{submitmessage}" class="btn btn-primary" />

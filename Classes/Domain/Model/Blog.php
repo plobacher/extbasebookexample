@@ -39,21 +39,21 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * @validate NotEmpty, Pluswerk.Simpleblog:Word(max=3)
      */
     protected $title = '';
-    
+
     /**
      * description
      *
      * @var string
      */
     protected $description = '';
-    
+
     /**
      * Picture of the blog
      *
-     * @var \TYPO3\CMS\Extbase\Domain\Model\FileReference
+     * @var string
      */
-    protected $image = null;
-    
+    protected $image = '';
+
     /**
      * Blog posts
      *
@@ -68,7 +68,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * @var DateTime
      */
     protected $crdate;
-    
+
     /**
      * Returns the title
      *
@@ -78,7 +78,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         return $this->title;
     }
-    
+
     /**
      * Sets the title
      *
@@ -89,7 +89,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         $this->title = $title;
     }
-    
+
     /**
      * Returns the description
      *
@@ -99,7 +99,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         return $this->description;
     }
-    
+
     /**
      * Sets the description
      *
@@ -110,28 +110,43 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         $this->description = $description;
     }
-    
+
     /**
      * Returns the image
      *
-     * @return \TYPO3\CMS\Extbase\Domain\Model\FileReference $image
+     * @return string $image
      */
     public function getImage()
     {
         return $this->image;
     }
-    
+
     /**
      * Sets the image
      *
-     * @param \TYPO3\CMS\Extbase\Domain\Model\FileReference $image
+     * @param \array $image
      * @return void
      */
-    public function setImage(\TYPO3\CMS\Extbase\Domain\Model\FileReference $image)
+    public function setImage(array $image)
     {
-        $this->image = $image;
+        if (!empty($image['name'])) {
+            // Name of image
+            $imageName = $image['name'];
+            // Temporary name (incl. path) in upload directory
+            $imageTempName = $image['tmp_name'];
+            // get instance of BasicFileUtility
+            $basicFileUtility = \TYPO3\CMS\Core\Utility
+            \GeneralUtility:: makeInstance('TYPO3\\CMS\\Core\\Utility\\File\\BasicFileUtility');
+            // Get unique name (incl. path) in
+            // uploads/tx_simpleblog/
+            $imageNameNew = $basicFileUtility->getUniqueName( $imageName, \TYPO3\CMS\Core\Utility\GeneralUtility::getFileAbsFileName('uploads/tx_simpleblog/'));
+            // move copy of file into uploads folder
+            \TYPO3\CMS\Core\Utility\GeneralUtility:: upload_copy_move($imageTempName, $imageNameNew);
+            // Setter of image name (w/o path)
+            $this->image = basename($imageNameNew);
+        }
     }
-    
+
     /**
      * __construct
      */
@@ -140,7 +155,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
         //Do not remove the next line: It would break the functionality
         $this->initStorageObjects();
     }
-    
+
     /**
      * Initializes all ObjectStorage properties
      * Do not modify this method!
@@ -153,7 +168,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         $this->posts = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
     }
-    
+
     /**
      * Adds a Post
      *
@@ -164,7 +179,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         $this->posts->attach($post);
     }
-    
+
     /**
      * Removes a Post
      *
@@ -175,7 +190,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         $this->posts->detach($postToRemove);
     }
-    
+
     /**
      * Returns the posts
      *
@@ -185,7 +200,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         return $this->posts;
     }
-    
+
     /**
      * Sets the posts
      *

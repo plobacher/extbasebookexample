@@ -27,6 +27,13 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         //$this->databaseHandle->debugOutput = 2;
     }
 
+    public function initializeAction()
+    {
+        if ($this->arguments->hasArgument('blog')) {
+            $this->arguments->getArgument('blog')->getPropertyMappingConfiguration()->setTargetTypeForSubProperty('image', 'array');
+        }
+    }
+
     public function listAction()
     {
         if ($this->request->hasArgument('search')){
