@@ -1,0 +1,20 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+        <name>Autor</name>
+    </author>
+    <title>{blog.title}</title>
+    <id>{f:uri.action(action:'show', controller:'Blog', arguments:'{blog:blog}', absolute:'TRUE') -> f:format.htmlspecialchars()}</id>
+    <updated><f:format.date format='Y-m-d\TH:i:sP'>{blog.crdate}</f:format.date></updated>
+
+    <f:for each="{blog.posts}" as="post">
+        <entry>
+            <title>{post.title}</title>
+            <link href="{f:uri.action(action:'show', controller:'Post', arguments:'{post:post,blog:blog}', absolute:'TRUE') -> f:format.htmlspecialchars()}"/>
+            <id>{f:uri.action(action:'show', controller:'Post', arguments:'{post:post,blog:blog}', absolute:'TRUE') -> f:format.htmlspecialchars()}</id>
+            <updated><f:format.date format='Y-m-d\TH:i:sP'>{post.postdate}</f:format.date></updated>
+            <summary>{post.content -> f:format.crop(maxCharacters:'30')}</summary>
+            <content>{post.content}</content>
+        </entry>
+    </f:for>
+
+</feed>

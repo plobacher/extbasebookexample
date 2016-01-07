@@ -10,7 +10,7 @@
         <dt>Blog description:</dt>
         <dd><f:format.nl2br>{blog.description}</f:format.nl2br></dd>
     </dl>
-
+    <f:link.action action="rss" format="xml" pageType="100" arguments="{blog:blog}" class="btn btn-small btn-warning"><i class="fa fa-rss"></i></f:link.action><br /><br />
     <f:if condition="{blog.posts}">
         <ul class="list-group">
             <f:for each="{blog.posts}" as="post">

@@ -58,7 +58,6 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
             'Status',
             \TYPO3\CMS\Core\Messaging\AbstractMessage::OK,TRUE
         );
-        $this->controllerContext->getFlashMessageQueue()->getAllMessages()
         $this->blogRepository->add($blog);
         $this->redirect('list');
     }
@@ -103,5 +102,13 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     {
         $this->blogRepository->remove($blog);
         $this->redirect('list');
+    }
+
+    /**
+     * @param \Pluswerk\Simpleblog\Domain\Model\Blog $blog
+     */
+    public function rssAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
+    {
+        $this->view->assign('blog', $blog);
     }
 }

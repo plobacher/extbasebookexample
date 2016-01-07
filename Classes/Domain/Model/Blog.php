@@ -62,6 +62,12 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * @lazy
      */
     protected $posts = null;
+
+    /**
+     * crdate
+     * @var DateTime
+     */
+    protected $crdate;
     
     /**
      * Returns the title
@@ -189,6 +195,21 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setPosts(\TYPO3\CMS\Extbase\Persistence\ObjectStorage $posts)
     {
         $this->posts = $posts;
+    }
+
+    /**
+     * @param \DateTime $crdate
+     * @return void
+     */
+    public function setCrdate(\DateTime $crdate) {
+        $this->crdate = $crdate;
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function getCrdate() {
+        return $this->crdate;
     }
 
 }

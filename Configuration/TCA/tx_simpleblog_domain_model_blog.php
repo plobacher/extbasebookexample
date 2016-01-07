@@ -116,6 +116,16 @@ return array(
 			),
 		),
 
+		'crdate' => Array (
+				'exclude' => 0,
+				'label' => 'Creation date',
+				'config' => Array (
+						'type' => 'none',
+						'format' => 'date',
+						'eval' => 'date',
+				)
+		),
+
 		'title' => array(
 			'exclude' => 0,
 			'label' => 'LLL:EXT:simpleblog/Resources/Private/Language/locallang_db.xlf:tx_simpleblog_domain_model_blog.title',
