@@ -53,6 +53,12 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      */
     public function addAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
     {
+        $this->addFlashMessage(
+            'Blog created successfully!',
+            'Status',
+            \TYPO3\CMS\Core\Messaging\AbstractMessage::OK,TRUE
+        );
+        $this->controllerContext->getFlashMessageQueue()->getAllMessages()
         $this->blogRepository->add($blog);
         $this->redirect('list');
     }
