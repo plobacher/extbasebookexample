@@ -16,6 +16,14 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $this->postRepository = $postRepository;
     }
 
+    /**
+     * SignalSlotDispatcher
+     *
+     * @var \TYPO3\CMS\Extbase\SignalSlot\Dispatcher
+     * @inject
+     */
+    protected $signalSlotDispatcher;
+
     public function initializeAction()
     {
         $action = $this->request->getControllerActionName();
@@ -135,6 +143,14 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         // Datum des Kommentars setzen und den Kommentar zum Post hinzufügen
         $comment->setCommentdate(new \DateTime());
         $post->addComment($comment);
+
+        // Signal for comment
+        $this->signalSlotDispatcher->dispatch(
+            __CLASS__,
+            'beforeCommentCreation',
+            array($comment,$post)
+        );
+
         $this->postRepository->update($post);
         $this->objectManager->get( 'TYPO3\\CMS\\Extbase\\Persistence\\Generic\\PersistenceManager' )->persistAll();
 
