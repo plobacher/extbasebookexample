@@ -28,8 +28,6 @@ plugin.tx_simpleblog_bloglisting {
 			Pluswerk\Simpleblog\Domain\Model\Blog {
 				newRecordStoragePid = 3
 			}
-
-
 			Pluswerk\Simpleblog\Domain\Model\Post {
 				newRecordStoragePid = 4
 			}
@@ -63,6 +61,24 @@ config.tx_extbase {
 		TYPO3\CMS\Fluid\Core\Parser\TemplateParser {
 			className = Pluswerk\Simpleblog\View\TemplateParser
 		}
+	}
+}
+
+config.tx_extbase {
+	persistence {
+		classes {
+			Pluswerk\Simpleblog\Domain\Model\FileReference {
+				mapping {
+					tableName = sys_file_reference
+					columns {
+						uid_local.mapOnProperty = originalFileIdentifier
+					}
+				}
+			}
+		}
+	}
+	objects {
+		TYPO3\CMS\Extbase\Domain\Model\FileReference.className = Pluswerk\Simpleblog\Domain\Model\FileReference
 	}
 }
 

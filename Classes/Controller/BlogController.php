@@ -29,9 +29,9 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 
     public function initializeAction()
     {
-        if ($this->arguments->hasArgument('blog')) {
-            $this->arguments->getArgument('blog')->getPropertyMappingConfiguration()->setTargetTypeForSubProperty('image', 'array');
-        }
+        //if ($this->arguments->hasArgument('blog')) {
+        //    $this->arguments->getArgument('blog')->getPropertyMappingConfiguration()->setTargetTypeForSubProperty('image', 'array');
+        //}
     }
 
     public function listAction()
@@ -52,6 +52,11 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     public function addFormAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog = NULL)
     {
         $this->view->assign('blog',$blog);
+    }
+
+    public function initializeAddAction()
+    {
+        $this->setTypeConverterConfigurationForImageUpload('blog');
     }
 
     /**
@@ -75,6 +80,11 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     public function showAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
     {
         $this->view->assign('blog',$blog);
+    }
+
+    public function initializeUpdateAction()
+    {
+        $this->setTypeConverterConfigurationForImageUpload('blog');
     }
 
     /**
@@ -117,5 +127,19 @@ class BlogController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     public function rssAction(\Pluswerk\Simpleblog\Domain\Model\Blog $blog)
     {
         $this->view->assign('blog', $blog);
+    }
+
+    protected function setTypeConverterConfigurationForImageUpload($argumentName)
+    {
+        $uploadConfiguration = array(
+            \Pluswerk\Simpleblog\Property\TypeConverter\UploadedFileReferenceConverter::CONFIGURATION_ALLOWED_FILE_EXTENSIONS => $GLOBALS['TYPO3_CONF_VARS']['GFX']['imagefile_ext'],
+            \Pluswerk\Simpleblog\Property\TypeConverter\UploadedFileReferenceConverter::CONFIGURATION_UPLOAD_FOLDER => '1:/simpleblog/',
+        );
+        $newExampleConfiguration = $this->arguments[$argumentName]->getPropertyMappingConfiguration();
+        $newExampleConfiguration->forProperty('image')
+            ->setTypeConverterOptions(
+                'Pluswerk\\Simpleblog\\Property\\TypeConverter\\UploadedFileReferenceConverter',
+                $uploadConfiguration
+            );
     }
 }

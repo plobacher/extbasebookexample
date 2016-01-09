@@ -9,6 +9,10 @@
         <dd>{blog.title}</dd>
         <dt>Blog description:</dt>
         <dd><f:format.nl2br>{blog.description}</f:format.nl2br></dd>
+        <dt>Blog image:</dt>
+        <dd><f:if condition="{blog.image}">
+            <f:image image="{blog.image}" alt="" width="50"/>
+        </f:if></dd>
     </dl>
     <f:link.action action="rss" format="xml" pageType="100" arguments="{blog:blog}" class="btn btn-small btn-warning"><i class="fa fa-rss"></i></f:link.action><br /><br />
     <f:if condition="{blog.posts}">

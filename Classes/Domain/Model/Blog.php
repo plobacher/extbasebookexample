@@ -50,9 +50,9 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Picture of the blog
      *
-     * @var string
+     * @var \TYPO3\CMS\Extbase\Domain\Model\FileReference
      */
-    protected $image = '';
+    protected $image = null;
 
     /**
      * Blog posts
@@ -114,7 +114,7 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Returns the image
      *
-     * @return string $image
+     * @return \TYPO3\CMS\Extbase\Domain\Model\FileReference $image
      */
     public function getImage()
     {
@@ -124,27 +124,12 @@ class Blog extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Sets the image
      *
-     * @param \array $image
+     * @param \TYPO3\CMS\Extbase\Domain\Model\FileReference $image
      * @return void
      */
-    public function setImage(array $image)
+    public function setImage(\TYPO3\CMS\Extbase\Domain\Model\FileReference $image)
     {
-        if (!empty($image['name'])) {
-            // Name of image
-            $imageName = $image['name'];
-            // Temporary name (incl. path) in upload directory
-            $imageTempName = $image['tmp_name'];
-            // get instance of BasicFileUtility
-            $basicFileUtility = \TYPO3\CMS\Core\Utility
-            \GeneralUtility:: makeInstance('TYPO3\\CMS\\Core\\Utility\\File\\BasicFileUtility');
-            // Get unique name (incl. path) in
-            // uploads/tx_simpleblog/
-            $imageNameNew = $basicFileUtility->getUniqueName( $imageName, \TYPO3\CMS\Core\Utility\GeneralUtility::getFileAbsFileName('uploads/tx_simpleblog/'));
-            // move copy of file into uploads folder
-            \TYPO3\CMS\Core\Utility\GeneralUtility:: upload_copy_move($imageTempName, $imageNameNew);
-            // Setter of image name (w/o path)
-            $this->image = basename($imageNameNew);
-        }
+        $this->image = $image;
     }
 
     /**

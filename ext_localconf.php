@@ -16,3 +16,5 @@ if (!defined('TYPO3_MODE')) {
 		'Post' => 'addForm,add,show,updateForm,update,deleteConfirm,delete,ajax',
 	)
 );
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerTypeConverter('Pluswerk\\Simpleblog\\Property\\TypeConverter\\UploadedFileReferenceConverter');

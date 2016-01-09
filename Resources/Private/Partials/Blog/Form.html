@@ -18,8 +18,11 @@
 
     <div class="form-group">
         <label>Blog image</label>
-        <f:if condition="{blog.image}"><br /><f:image src="uploads/tx_simpleblog/{blog.image}" /></f:if>
-        <f:form.upload  property="image" class="form-control" />
+        <simpleblog:form.upload property="image" ><br />
+            <f:if condition="{resource}">
+                <f:image image="{resource}" alt="" width="50"/>
+            </f:if>
+        </simpleblog:form.upload>
     </div>
 
     <f:form.submit value="{submitmessage}" class="btn btn-primary" />
