@@ -19,6 +19,14 @@
         <dd>{post.author.fullname} (Email: {post.author.email})
             <br />
             <simpleblog:gravatar>{post.author.email}</simpleblog:gravatar></dd></dd>
+        <dt>Post images</dt>
+        <dd>
+            <f:for each="{post.images}" as="image" >
+                <a href="{f:uri.image(src:image.uid,treatIdAsReference:1)}" class="lightbox" rel="gallery">
+                    <f:image src="{image.uid}" alt="" width="100px" treatIdAsReference="1" />
+                </a >
+            </f:for >
+        </dd>
     </dl>
 
     <h3>Comments</h3>

@@ -63,6 +63,9 @@
 			<trans-unit id="tx_simpleblog_domain_model_tag.tagvalue">
 				<source>Tagvalue</source>
 			</trans-unit>
+			<trans-unit id="tx_simpleblog_db_table.add-images">
+				<source>Add Images</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

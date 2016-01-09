@@ -53,7 +53,16 @@ class Post extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
      * @var \DateTime
      */
     protected $postdate = null;
-    
+
+    /**
+     * Images
+     *
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\TYPO3\CMS\Extbase\Domain\Model\FileReference>
+     * @lazy
+     */
+    protected $images;
+
+
     /**
      * Post comments
      *
@@ -147,7 +156,7 @@ class Post extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     {
         //Do not remove the next line: It would break the functionality
         $this->initStorageObjects();
-
+        $this->images = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
         $this->setPostdate(new \DateTime());
     }
     
@@ -164,7 +173,26 @@ class Post extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
         $this->comments = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
         $this->tags = new \TYPO3\CMS\Extbase\Persistence\ObjectStorage();
     }
-    
+
+    /**
+     * Images Setter
+     * @param \TYPO3\CMS\Extbase\Persistence\ObjectStorage $images
+     * @return void
+     */
+    public function setImages($images)
+    {
+        $this->images = $images;
+    }
+
+    /**
+     * Images Getter
+     * @return \TYPO3\CMS\Extbase\Persistence\ObjectStorage
+     */
+    public function getImages()
+    {
+        return $this->images;
+    }
+
     /**
      * Adds a Comment
      *

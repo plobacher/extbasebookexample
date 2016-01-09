@@ -57,6 +57,8 @@ CREATE TABLE tx_simpleblog_domain_model_post (
 	author int(11) unsigned DEFAULT '0',
 	tags int(11) unsigned DEFAULT '0' NOT NULL,
 
+  images int(11) unsigned DEFAULT '0',
+
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,
 	crdate int(11) unsigned DEFAULT '0' NOT NULL,
 	cruser_id int(11) unsigned DEFAULT '0' NOT NULL,
