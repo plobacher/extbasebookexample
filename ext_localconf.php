@@ -9,11 +9,13 @@ if (!defined('TYPO3_MODE')) {
 	array(
 		'Blog' => 'list,addForm,add,show,updateForm,update,deleteConfirm,delete,rss',
 		'Post' => 'addForm,add,show,updateForm,update,deleteConfirm,delete,ajax',
+		'Json' => 'json'
 	),
 	// non-cacheable actions
 	array(
 		'Blog' => 'list,addForm,add,show,updateForm,update,deleteConfirm,delete,rss',
 		'Post' => 'addForm,add,show,updateForm,update,deleteConfirm,delete,ajax',
+		'Json' => 'json'
 	)
 );
 

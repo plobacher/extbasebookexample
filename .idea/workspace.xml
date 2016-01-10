@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ffd5bcb-8033-4d14-9677-aa05ccb73c61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Post.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/tx_simpleblog_domain_model_post.php" afterPath="$PROJECT_DIR$/Configuration/TCA/tx_simpleblog_domain_model_post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_tables.sql" afterPath="$PROJECT_DIR$/ext_tables.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Controller/BlogController.php" afterPath="$PROJECT_DIR$/Classes/Controller/BlogController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_localconf.php" afterPath="$PROJECT_DIR$/ext_localconf.php" />
     </list>
     <ignored path="simpleblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,98 +30,48 @@
       <file leaf-file-name="ext_localconf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext_localconf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.3">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state vertical-scroll-proportion="-7.2">
+              <caret line="18" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignalService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Service/SignalService.php">
+      <file leaf-file-name="List.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.909091">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state vertical-scroll-proportion="-7.3030305">
+              <caret line="32" column="121" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="121" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext_tables.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext_tables.php">
+      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Controller/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6363635">
-              <caret line="49" column="74" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
+            <state vertical-scroll-proportion="6.5151515">
+              <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext_tables.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext_tables.sql">
+      <file leaf-file-name="JsonController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classes/Controller/JsonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.333333">
-              <caret line="88" column="2" selection-start-line="45" selection-start-column="0" selection-end-line="88" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.5271676">
+              <caret line="16" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tx_simpleblog_domain_model_post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configuration/TCA/tx_simpleblog_domain_model_post.php">
+      <file leaf-file-name="setup.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6">
-              <caret line="28" column="234" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="234" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="locallang_db.xlf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.75">
-              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.363636">
-              <caret line="193" column="5" selection-start-line="176" selection-start-column="4" selection-end-line="193" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Show.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9230769">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageViewHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/ViewHelpers/ImageViewHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.909091">
-              <caret line="96" column="38" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Controller/PostController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1818182">
-              <caret line="144" column="36" selection-start-line="135" selection-start-column="4" selection-end-line="144" selection-end-column="36" />
+            <state vertical-scroll-proportion="53.090908">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -143,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Classes/ViewHelpers/Widget/Controller/AtoZNavController.php" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers/Widget/AtoZNav/Index.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Language/locallang.xlf" />
         <option value="$PROJECT_DIR$/Resources/Private/Language/de.locallang.xlf" />
         <option value="$PROJECT_DIR$/Classes/Domain/Repository/BlogRepository.php" />
@@ -172,7 +119,6 @@
         <option value="$PROJECT_DIR$/Resources/Private/Language/locallang_csh.xlf" />
         <option value="$PROJECT_DIR$/Classes/ViewHelpers/Be/Menus/ActionMenuViewHelper.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Layouts/Module/Default.html" />
-        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" />
         <option value="$PROJECT_DIR$/Classes/ViewHelpers/PropertyViewHelper.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Partials/ErrorMessage.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/Rss.xml" />
@@ -184,16 +130,19 @@
         <option value="$PROJECT_DIR$/Classes/Property/TypeConverter/UploadedFileReferenceConverter.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Partials/Blog/Form.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/Show.html" />
-        <option value="$PROJECT_DIR$/Classes/Controller/BlogController.php" />
         <option value="$PROJECT_DIR$/Classes/Property/TypeConverter/ObjectStorageConverter.php" />
         <option value="$PROJECT_DIR$/Classes/Controller/PostController.php" />
-        <option value="$PROJECT_DIR$/ext_localconf.php" />
         <option value="$PROJECT_DIR$/Classes/Service/SignalService.php" />
         <option value="$PROJECT_DIR$/ext_tables.sql" />
         <option value="$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf" />
         <option value="$PROJECT_DIR$/Classes/Domain/Model/Post.php" />
         <option value="$PROJECT_DIR$/Configuration/TCA/tx_simpleblog_domain_model_post.php" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/Json.html" />
+        <option value="$PROJECT_DIR$/Classes/Controller/JsonController.php" />
+        <option value="$PROJECT_DIR$/ext_localconf.php" />
+        <option value="$PROJECT_DIR$/Classes/Controller/BlogController.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html" />
       </list>
     </option>
   </component>
@@ -211,10 +160,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="391" />
-    <option name="y" value="1103" />
-    <option name="width" value="1383" />
-    <option name="height" value="777" />
+    <option name="x" value="289" />
+    <option name="y" value="23" />
+    <option name="width" value="1351" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -280,7 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extbase" />
+              <option name="myItemId" value="fluid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,7 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extbase" />
+              <option name="myItemId" value="fluid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -328,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extbase" />
+              <option name="myItemId" value="fluid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -336,7 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
+              <option name="myItemId" value="ViewHelpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extbase" />
+              <option name="myItemId" value="fluid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -366,11 +315,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
+              <option name="myItemId" value="ViewHelpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="Link" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,7 +423,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypoScript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,6 +472,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TCA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,16 +607,16 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../../../typo3/sysext/fluid/Classes/ViewHelpers/Form/UploadViewHelper.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers" />
-      <recent name="$PROJECT_DIR$/Classes" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Classes/Controller" />
       <recent name="$PROJECT_DIR$/Classes/ViewHelpers" />
       <recent name="$PROJECT_DIR$/Resources/Private/Templates/Comment" />
       <recent name="$PROJECT_DIR$/Classes/Domain/Repository" />
       <recent name="$PROJECT_DIR$/Resources/Private/Language" />
-      <recent name="$PROJECT_DIR$/Resources/Private/Templates/Post" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/Private/Templates/ViewHelpers" />
+      <recent name="$PROJECT_DIR$/Classes" />
     </key>
   </component>
   <component name="RunManager">
@@ -679,15 +672,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="1103" width="1383" height="777" extended-state="0" />
-    <editor active="false" />
+    <frame x="289" y="23" width="1351" height="1018" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30947053" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2971734" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47077245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -698,6 +690,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47077245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -718,25 +711,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/core/Classes/Localization/LanguageStore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.060606">
-          <caret line="165" column="83" selection-start-line="165" selection-start-column="83" selection-end-line="165" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/lang/locallang_csh_corebe.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2727275">
-          <caret line="10" column="25" selection-start-line="8" selection-start-column="12" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Language/locallang_csh.xlf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.818182">
           <caret line="8" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,13 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.6363635">
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -859,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37222221">
           <caret line="151" column="23" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-38.545456">
           <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4545455">
           <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,15 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="20.363636">
           <caret line="194" column="14" selection-start-line="147" selection-start-column="8" selection-end-line="194" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4545455">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.0">
           <caret line="25" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.909091">
           <caret line="15" column="9" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,15 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.818182">
           <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6969695">
-          <caret line="143" column="5" selection-start-line="131" selection-start-column="4" selection-end-line="143" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="178.72728">
           <caret line="1071" column="62" selection-start-line="1071" selection-start-column="7" selection-end-line="1071" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.8484848">
           <caret line="93" column="52" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.030303">
           <caret line="200" column="45" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="9.727273">
           <caret line="184" column="111" selection-start-line="184" selection-start-column="111" selection-end-line="184" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.69697">
           <caret line="21" column="58" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.0">
           <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7575758">
           <caret line="100" column="45" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="9.0">
           <caret line="145" column="141" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="141" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,9 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="55.878788">
           <caret line="735" column="125" selection-start-line="735" selection-start-column="8" selection-end-line="735" selection-end-column="125" />
-          <folding>
-            <marker date="1450177635000" expanded="true" signature="16648:16669" placeholder="DROP TABLE I..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.6363635">
           <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,29 +965,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.181818">
           <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Controller/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1818182">
+        <state vertical-scroll-proportion="0.0">
           <caret line="144" column="36" selection-start-line="135" selection-start-column="4" selection-end-line="144" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext_localconf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.3">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Service/SignalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.909091">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
@@ -1059,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ext_tables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6363635">
+        <state vertical-scroll-proportion="0.0">
           <caret line="49" column="74" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
           <folding />
         </state>
@@ -1067,7 +994,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ext_tables.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="88" column="2" selection-start-line="45" selection-start-column="0" selection-end-line="88" selection-end-column="2" />
           <folding />
         </state>
@@ -1075,15 +1002,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/ViewHelpers/ImageViewHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="38" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/TypoScript/setup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="53.090908">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7745665">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Domain/Model/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.363636">
+        <state vertical-scroll-proportion="0.027745664">
           <caret line="193" column="5" selection-start-line="176" selection-start-column="4" selection-end-line="193" selection-end-column="5" />
           <folding />
         </state>
@@ -1091,24 +1042,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Configuration/TCA/tx_simpleblog_domain_model_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6">
+        <state vertical-scroll-proportion="0.027745664">
           <caret line="28" column="234" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="234" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/ViewHelpers/ImageViewHelper.php">
+    <entry file="file://$PROJECT_DIR$/../../../typo3_src-7.6.1/typo3/sysext/fluid/Classes/ViewHelpers/Link/ActionViewHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.909091">
-          <caret line="96" column="38" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="38" />
+        <state vertical-scroll-proportion="-2.2473989">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Post/Show.html">
+    <entry file="file://$PROJECT_DIR$/Classes/Controller/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9230769">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        <state vertical-scroll-proportion="6.5151515">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/Blog/List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3030305">
+          <caret line="32" column="121" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext_localconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="18" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Controller/JsonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5271676">
+          <caret line="16" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
           <folding />
         </state>
       </provider>
